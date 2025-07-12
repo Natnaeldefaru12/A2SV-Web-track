@@ -5,14 +5,14 @@ The way to use it is easy
 - You can remove once done by clicking on the saved tasks
 ## Screenshot of Task 1
 Write your notes
-![First Screenshot](Task%201/images/First.png)
+![First Screenshot](images/First.png)
 
 click New task
-![Second Screenshot](Task%201/images/Second.png)
+![Second Screenshot](images/Second.png)
 
 add more if you want
-![Third Screenshot](Task%201/images/Third.png)
+![Third Screenshot](images/Third.png)
 
 Delete when finished by clicking on the task saved
-![Fourth Screenshot](Task%201/images/Fourth.png)
+![Fourth Screenshot](images/Fourth.png)
 
