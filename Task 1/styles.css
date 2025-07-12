@@ -32,6 +32,10 @@ h2 {
 
 li {
     font-size: 19px;
+    background-color: rgb(234, 222, 209);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px;
 }
 
 form {
