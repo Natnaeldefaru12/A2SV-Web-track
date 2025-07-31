@@ -1,0 +1,180 @@
+[
+  {
+    "title": "Social Media Assistant",
+    "org": "Young Men Christians Association",
+    "location": "Addis Ababa, Ethiopia",
+    "description": "As a Social Media Assistant, you will work closely with the social media manager or marketing team to execute social media strategies and campaigns. You will be responsible for assisting in the creation and scheduling of engaging content, monitoring social media channels, and interacting with followers.",
+    "responsibilities": [
+      "Community engagement",
+      "Focus on social media content development and publication",
+      "Marketing and strategy support",
+      "Staying on top of trends and suggesting content ideas",
+      "Engaging with online communities"
+    ],
+    "ideal_candidate": {
+      "age": "18-24",
+      "gender": "Female",
+      "traits": [
+        "Passionate & Reliable: Having genuine interest, a strong desire to make a positive impact, being responsible, and committed to volunteer work",
+        "Adaptable, Team Player & Strong Communication Skills: Able to work effectively in diverse teams, contribute positively, be flexible, open to new challenges, and possess clear verbal/written communication, active listening, and constructive feedback",
+        "Respectful: Embracing diversity, being inclusive, treating others with respect, and abiding by rules and regulations"
+      ]
+    },
+    "when_where": "The onboarding event for this event will take place in Jan 18th, 2023 in AAU Auditorium.",
+    "about": {
+      "posted_on": "Jul 1, 2023",
+      "deadline": "Jul 31, 2023",
+      "location": "Addis Ababa",
+      "start_date": "Aug 10, 2023",
+      "end_date": "Sep 02, 2023",
+      "categories": ["Marketing", "Design"],
+      "required_skills": ["Social Media Marketing", "English", "Copywriting"]
+    },
+    "company": "Young Men Christians Association",
+    "image": "/Task-6-logo.png"
+  },
+  {
+    "title": "Volunteer Teacher",
+    "org": "School Under The Tree",
+    "location": "Addis Ababa, Ethiopia",
+    "description": "Join our mission to provide quality education to underprivileged children. You will teach basic subjects and help create a positive learning environment.",
+    "responsibilities": [
+      "Teach basic subjects (Math, English, Science)",
+      "Create lesson plans and educational materials",
+      "Monitor student progress and provide feedback",
+      "Maintain classroom discipline and safety",
+      "Participate in school events and activities"
+    ],
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+      "traits": [
+        "Education background or teaching experience preferred",
+        "Patient and compassionate with children",
+        "Strong communication and organizational skills",
+        "Commitment to educational excellence",
+        "Ability to work in outdoor/community settings"
+      ]
+    },
+    "when_where": "Classes will be held at our community center in Addis Ababa.",
+    "about": {
+      "posted_on": "Jun 15, 2023",
+      "deadline": "Jul 30, 2023",
+      "location": "Addis Ababa",
+      "start_date": "Aug 1, 2023",
+      "end_date": "Dec 15, 2023",
+      "categories": ["Education", "Community"],
+      "required_skills": ["Teaching", "Amharic", "English"]
+    },
+    "company": "School Under The Tree",
+    "image": "/Task-6-logo.png"
+  },
+  {
+    "title": "Social Media Assistant",
+    "org": "The Africa in me",
+    "location": "Addis Ababa, Ethiopia",
+    "description": "Help us tell the story of Africa through social media. You will create engaging content that showcases African culture, innovation, and opportunities.",
+    "responsibilities": [
+      "Create and curate engaging social media content",
+      "Develop content calendars and posting schedules",
+      "Engage with followers and respond to comments",
+      "Track social media metrics and performance",
+      "Collaborate with the creative team on campaigns"
+    ],
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+      "traits": [
+        "Creative and passionate about African culture",
+        "Experience with social media platforms",
+        "Strong writing and visual communication skills",
+        "Knowledge of current social media trends",
+        "Ability to work independently and meet deadlines"
+      ]
+    },
+    "when_where": "Work will be primarily remote with occasional in-person meetings in Addis Ababa.",
+    "about": {
+      "posted_on": "Jun 20, 2023",
+      "deadline": "Jul 25, 2023",
+      "location": "Addis Ababa",
+      "start_date": "Aug 5, 2023",
+      "end_date": "Oct 30, 2023",
+      "categories": ["Marketing", "Culture"],
+      "required_skills": ["Social Media", "Content Creation", "Photography"]
+    },
+    "company": "The Africa in me",
+    "image": "/Task-6-logo.png"
+  },
+  {
+    "title": "Frontend Developer",
+    "org": "Tech Innovators Inc.",
+    "location": "Remote",
+    "description": "Join our team to build modern, responsive web applications. You will collaborate with designers and backend developers to deliver high-quality products.",
+    "responsibilities": [
+      "Develop responsive web applications using React/Next.js",
+      "Collaborate with UI/UX designers and backend developers",
+      "Write clean, maintainable, and well-documented code",
+      "Participate in code reviews and technical discussions",
+      "Optimize applications for performance and accessibility"
+    ],
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+      "traits": [
+        "2+ years of experience with React, TypeScript, and modern web technologies",
+        "Strong understanding of HTML, CSS, and JavaScript",
+        "Experience with responsive design and cross-browser compatibility",
+        "Knowledge of version control systems (Git)",
+        "Excellent problem-solving and communication skills"
+      ]
+    },
+    "when_where": "This is a fully remote position with flexible working hours.",
+    "about": {
+      "posted_on": "Jun 10, 2023",
+      "deadline": "Jul 20, 2023",
+      "location": "Remote",
+      "start_date": "Aug 1, 2023",
+      "end_date": "Ongoing",
+      "categories": ["Technology", "Development"],
+      "required_skills": ["React", "TypeScript", "CSS"]
+    },
+    "company": "Tech Innovators Inc.",
+    "image": "/Task-6-logo.png"
+  },
+  {
+    "title": "Data Analyst",
+    "org": "Insight Analytics",
+    "location": "Nairobi, Kenya",
+    "description": "Analyze large datasets to extract actionable insights for our clients. Experience with SQL and Python is required.",
+    "responsibilities": [
+      "Collect, clean, and analyze large datasets",
+      "Create data visualizations and reports",
+      "Develop predictive models and statistical analyses",
+      "Present findings to stakeholders and clients",
+      "Maintain data quality and integrity standards"
+    ],
+    "ideal_candidate": {
+      "age": "Any",
+      "gender": "Any",
+      "traits": [
+        "Bachelor's degree in Statistics, Mathematics, or related field",
+        "Proficiency in SQL, Python, and data visualization tools",
+        "Strong analytical and problem-solving skills",
+        "Experience with statistical analysis and modeling",
+        "Excellent communication and presentation skills"
+      ]
+    },
+    "when_where": "Office-based position in Nairobi with some remote work flexibility.",
+    "about": {
+      "posted_on": "Jun 5, 2023",
+      "deadline": "Jul 15, 2023",
+      "location": "Nairobi, Kenya",
+      "start_date": "Jul 25, 2023",
+      "end_date": "Ongoing",
+      "categories": ["Analytics", "Finance"],
+      "required_skills": ["SQL", "Python", "Statistics"]
+    },
+    "company": "Insight Analytics",
+    "image": "/Task-6-logo.png"
+  }
+]

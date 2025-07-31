@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Social Media Assistant",
+    "org": "Young Men Christians Association",
+    "location": "Addis Ababa, Ethiopia",
+    "description": "As a Social Media Assistant, you will work closely with the social media manager or marketing team to execute social media strategies and campaigns. You will be responsible for assisting in the creation and scheduling of engaging content, monitoring social media channels, and interacting with followers.",
+    "responsibilities": [
+      "Community engagement",
+      "Focus on social media content development and publication",
+      "Marketing and strategy support",
+      "Staying on top of trends and suggesting content ideas",
+      "Engaging with online communities"
+    ],
+    "idealCandidate": [
+      "Young (18-24 year old) Female social media manager",
+      "Passionate & Reliable: Having genuine interest, a strong desire to make a positive impact, being responsible, and committed to volunteer work",
+      "Adaptable, Team Player & Strong Communication Skills: Able to work effectively in diverse teams, contribute positively, be flexible, open to new challenges, and possess clear verbal/written communication, active listening, and constructive feedback",
+      "Respectful: Embracing diversity, being inclusive, treating others with respect, and abiding by rules and regulations"
+    ],
+    "whenWhere": "The onboarding event for this event will take place in Jan 18th, 2023 in AAU Auditorium.",
+    "postedOn": "Jul 1, 2023",
+    "deadline": "Jul 31, 2023",
+    "startDate": "Aug 10, 2023",
+    "endDate": "Sep 02, 2023",
+    "tags": [
+      { "label": "In Person", "color": "bg-green-100 text-green-800" },
+      { "label": "Education", "color": "text-[#FFB836]", "border": "border border-[#FFB836]" },
+      { "label": "IT", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
+    ],
+    "categories": [
+      { "label": "Marketing", "color": "bg-orange-500 text-white" },
+      { "label": "Design", "color": "bg-blue-400 text-white" }
+    ],
+    "requiredSkills": [
+      { "label": "Social Media Marketing", "color": "text-blue-400" },
+      { "label": "English", "color": "text-blue-400" },
+      { "label": "Copywriting", "color": "text-blue-400" }
+    ],
+    "logo": "/Task-6-logo.png"
+  },
+  {
+    "title": "Volunteer Teacher",
+    "org": "School Under The Tree",
+    "location": "Addis Ababa, Ethiopia",
+    "description": "Join our mission to provide quality education to underprivileged children. You will teach basic subjects and help create a positive learning environment.",
+    "responsibilities": [
+      "Teach basic subjects (Math, English, Science)",
+      "Create lesson plans and educational materials",
+      "Monitor student progress and provide feedback",
+      "Maintain classroom discipline and safety",
+      "Participate in school events and activities"
+    ],
+    "idealCandidate": [
+      "Education background or teaching experience preferred",
+      "Patient and compassionate with children",
+      "Strong communication and organizational skills",
+      "Commitment to educational excellence",
+      "Ability to work in outdoor/community settings"
+    ],
+    "whenWhere": "Classes will be held at our community center in Addis Ababa.",
+    "postedOn": "Jun 15, 2023",
+    "deadline": "Jul 30, 2023",
+    "startDate": "Aug 1, 2023",
+    "endDate": "Dec 15, 2023",
+    "tags": [
+      { "label": "In Person", "color": "bg-green-100 text-green-800" },
+      { "label": "Education", "color": "text-[#FFB836]", "border": "border border-[#FFB836]" },
+      { "label": "Teaching", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
+    ],
+    "categories": [
+      { "label": "Education", "color": "bg-green-500 text-white" },
+      { "label": "Community", "color": "bg-purple-500 text-white" }
+    ],
+    "requiredSkills": [
+      { "label": "Teaching", "color": "text-blue-400" },
+      { "label": "Amharic", "color": "text-blue-400" },
+      { "label": "English", "color": "text-blue-400" }
+    ],
+    "logo": "/Task-6-logo.png"
+  },
+  {
+    "title": "Social Media Assistant",
+    "org": "The Africa in me",
+    "location": "Addis Ababa, Ethiopia",
+    "description": "Help us tell the story of Africa through social media. You will create engaging content that showcases African culture, innovation, and opportunities.",
+    "responsibilities": [
+      "Create and curate engaging social media content",
+      "Develop content calendars and posting schedules",
+      "Engage with followers and respond to comments",
+      "Track social media metrics and performance",
+      "Collaborate with the creative team on campaigns"
+    ],
+    "idealCandidate": [
+      "Creative and passionate about African culture",
+      "Experience with social media platforms",
+      "Strong writing and visual communication skills",
+      "Knowledge of current social media trends",
+      "Ability to work independently and meet deadlines"
+    ],
+    "whenWhere": "Work will be primarily remote with occasional in-person meetings in Addis Ababa.",
+    "postedOn": "Jun 20, 2023",
+    "deadline": "Jul 25, 2023",
+    "startDate": "Aug 5, 2023",
+    "endDate": "Oct 30, 2023",
+    "tags": [
+      { "label": "Remote", "color": "bg-blue-100 text-blue-800" },
+      { "label": "Culture", "color": "text-[#FFB836]", "border": "border border-[#FFB836]" },
+      { "label": "Media", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
+    ],
+    "categories": [
+      { "label": "Marketing", "color": "bg-orange-500 text-white" },
+      { "label": "Culture", "color": "bg-yellow-500 text-white" }
+    ],
+    "requiredSkills": [
+      { "label": "Social Media", "color": "text-blue-400" },
+      { "label": "Content Creation", "color": "text-blue-400" },
+      { "label": "Photography", "color": "text-blue-400" }
+    ],
+    "logo": "/Task-6-logo.png"
+  },
+  {
+    "title": "Frontend Developer",
+    "org": "Tech Innovators Inc.",
+    "location": "Remote",
+    "description": "Join our team to build modern, responsive web applications. You will collaborate with designers and backend developers to deliver high-quality products.",
+    "responsibilities": [
+      "Develop responsive web applications using React/Next.js",
+      "Collaborate with UI/UX designers and backend developers",
+      "Write clean, maintainable, and well-documented code",
+      "Participate in code reviews and technical discussions",
+      "Optimize applications for performance and accessibility"
+    ],
+    "idealCandidate": [
+      "2+ years of experience with React, TypeScript, and modern web technologies",
+      "Strong understanding of HTML, CSS, and JavaScript",
+      "Experience with responsive design and cross-browser compatibility",
+      "Knowledge of version control systems (Git)",
+      "Excellent problem-solving and communication skills"
+    ],
+    "whenWhere": "This is a fully remote position with flexible working hours.",
+    "postedOn": "Jun 10, 2023",
+    "deadline": "Jul 20, 2023",
+    "startDate": "Aug 1, 2023",
+    "endDate": "Ongoing",
+    "tags": [
+      { "label": "Remote", "color": "bg-blue-100 text-blue-800" },
+      { "label": "Full Time", "color": "bg-yellow-100 text-yellow-800" },
+      { "label": "IT", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
+    ],
+    "categories": [
+      { "label": "Technology", "color": "bg-blue-500 text-white" },
+      { "label": "Development", "color": "bg-indigo-500 text-white" }
+    ],
+    "requiredSkills": [
+      { "label": "React", "color": "text-blue-400" },
+      { "label": "TypeScript", "color": "text-blue-400" },
+      { "label": "CSS", "color": "text-blue-400" }
+    ],
+    "logo": "/Task-6-logo.png"
+  },
+  {
+    "title": "Data Analyst",
+    "org": "Insight Analytics",
+    "location": "Nairobi, Kenya",
+    "description": "Analyze large datasets to extract actionable insights for our clients. Experience with SQL and Python is required.",
+    "responsibilities": [
+      "Collect, clean, and analyze large datasets",
+      "Create data visualizations and reports",
+      "Develop predictive models and statistical analyses",
+      "Present findings to stakeholders and clients",
+      "Maintain data quality and integrity standards"
+    ],
+    "idealCandidate": [
+      "Bachelor's degree in Statistics, Mathematics, or related field",
+      "Proficiency in SQL, Python, and data visualization tools",
+      "Strong analytical and problem-solving skills",
+      "Experience with statistical analysis and modeling",
+      "Excellent communication and presentation skills"
+    ],
+    "whenWhere": "Office-based position in Nairobi with some remote work flexibility.",
+    "postedOn": "Jun 5, 2023",
+    "deadline": "Jul 15, 2023",
+    "startDate": "Jul 25, 2023",
+    "endDate": "Ongoing",
+    "tags": [
+      { "label": "In Person", "color": "bg-green-100 text-green-800" },
+      { "label": "Analytics", "color": "bg-purple-100 text-purple-800" },
+      { "label": "Finance", "color": "bg-pink-100 text-pink-800" }
+    ],
+    "categories": [
+      { "label": "Analytics", "color": "bg-purple-500 text-white" },
+      { "label": "Finance", "color": "bg-pink-500 text-white" }
+    ],
+    "requiredSkills": [
+      { "label": "SQL", "color": "text-blue-400" },
+      { "label": "Python", "color": "text-blue-400" },
+      { "label": "Statistics", "color": "text-blue-400" }
+    ],
+    "logo": "/Task-6-logo.png"
+  }
+]
