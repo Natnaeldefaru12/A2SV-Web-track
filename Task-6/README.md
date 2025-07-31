@@ -18,10 +18,7 @@ A modern job listing application built with Next.js and TypeScript. This applica
 
 ### Detailed Job View
 
-*To add your detailed job view screenshot:*
-1. Take a screenshot of the detailed job view page
-2. Save it in the project directory (recommended: save in a `screenshots` folder)
-3. Replace `path_to_your_detailed_view_screenshot.png` with the actual path to your screenshot
+
 
 ![Detailed Job View](screenshots/Screenshot%202025-07-31%20171145.png)
 
