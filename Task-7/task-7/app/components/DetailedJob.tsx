@@ -2,122 +2,97 @@ import React from "react";
 import { useRouter } from "next/navigation";
 
 interface DetailedJobProps {
-  id: string;
   title: string;
-  orgName: string;
-  location: string[];
+  org: string;
+  location: string;
   description: string;
-  responsibilities: string;
-  requirements: string;
-  idealCandidate: string;
-  whenAndWhere: string;
-  datePosted: string;
+  responsibilities: string[];
+  idealCandidate: {
+    age: string;
+    gender: string;
+    traits: string[];
+  };
+  whenWhere: string;
+  postedOn: string;
   deadline: string;
   startDate: string;
   endDate: string;
-  categories: string[];
-  requiredSkills: string[];
-  logoUrl: string;
-  orgEmail: string;
-  orgPrimaryPhone: string;
+  categories: { label: string; color: string }[];
+  requiredSkills: { label: string; color: string }[];
+  logo: string;
 }
 
-interface ApiJobResponse {
-  id: string;
+interface JobPosting {
   title: string;
   description: string;
-  responsibilities: string;
-  requirements: string;
-  idealCandidate: string;
-  categories: string[];
-  opType: string;
-  startDate: string;
-  endDate: string;
-  deadline: string;
-  location: string[];
-  requiredSkills: string[];
-  whenAndWhere: string;
-  orgID: string;
-  datePosted: string;
-  status: string;
-  applicantsCount: number;
-  viewsCount: number;
-  orgName: string;
-  logoUrl: string;
-  isBookmarked: boolean;
-  isRolling: boolean;
-  questions: null | any;
-  perksAndBenefits: null | any;
-  createdAt: string;
-  updatedAt: string;
-  orgPrimaryPhone: string;
-  orgEmail: string;
-  average_rating: number;
-  total_reviews: number;
+  responsibilities: string[];
+  ideal_candidate: {
+    age: string;
+    gender: string;
+    traits: string[];
+  };
+  when_where: string;
+  about: {
+    posted_on: string;
+    deadline: string;
+    location: string;
+    start_date: string;
+    end_date: string;
+    categories: string[];
+    required_skills: string[];
+  };
+  company: string;
+  image: string;
 }
 
-export const mapApiJobToDetailedProps = (job: ApiJobResponse): DetailedJobProps => ({
-  id: job.id,
+export const mapJobToDetailedProps = (job: JobPosting): DetailedJobProps => ({
   title: job.title,
-  orgName: job.orgName,
-  location: job.location,
+  org: job.company,
+  location: job.about.location,
   description: job.description,
   responsibilities: job.responsibilities,
-  requirements: job.requirements,
-  idealCandidate: job.idealCandidate,
-  whenAndWhere: job.whenAndWhere,
-  datePosted: job.datePosted,
-  deadline: job.deadline,
-  startDate: job.startDate,
-  endDate: job.endDate,
-  categories: job.categories,
-  requiredSkills: job.requiredSkills,
-  logoUrl: job.logoUrl,
-  orgEmail: job.orgEmail,
-  orgPrimaryPhone: job.orgPrimaryPhone
+  idealCandidate: {
+    age: job.ideal_candidate.age,
+    gender: job.ideal_candidate.gender,
+    traits: job.ideal_candidate.traits
+  },
+  whenWhere: job.when_where,
+  postedOn: job.about.posted_on,
+  deadline: job.about.deadline,
+  startDate: job.about.start_date,
+  endDate: job.about.end_date,
+  categories: job.about.categories.map((cat, idx) => ({
+    label: cat,
+    color: idx === 0 ? "bg-orange-500 text-white" : "bg-blue-400 text-white"
+  })),
+  requiredSkills: job.about.required_skills.map(skill => ({
+    label: skill,
+    color: "text-blue-400"
+  })),
+  logo: job.image
 });
 
 const DetailedJob = ({
-  id,
   title,
-  orgName,
+  org,
   location,
   description,
   responsibilities,
-  requirements,
   idealCandidate,
-  whenAndWhere,
-  datePosted,
+  whenWhere,
+  postedOn,
   deadline,
   startDate,
   endDate,
   categories,
   requiredSkills,
-  logoUrl,
-  orgEmail,
-  orgPrimaryPhone,
+  logo,
 }: DetailedJobProps) => {
   const router = useRouter();
   
   const handleBackClick = () => {
     router.push('/');
   };
-
-  // Split responsibilities, requirements, and idealCandidate by newline characters
-  const responsibilitiesList = responsibilities.split('\n').filter(item => item.trim() !== '');
-  const requirementsList = requirements.split('\n').filter(item => item.trim() !== '');
-  const idealCandidateList = idealCandidate.split('\n').filter(item => item.trim() !== '');
-
-  // Format dates
-  const formatDate = (dateString: string) => {
-    try {
-      const date = new Date(dateString);
-      return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-    } catch (error) {
-      return dateString;
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gray-900 flex items-center justify-center p-8">
       <div className="bg-white rounded-3xl p-8 max-w-6xl w-full shadow-lg relative">
@@ -130,26 +105,20 @@ const DetailedJob = ({
           </svg>
           Back
         </button>
-        <div className="flex flex-col md:flex-row gap-8 mt-10">
+        <div className="flex gap-8">
           <div className="flex-1">
             <div className="flex items-start space-x-4 mb-6">
               <div className="flex-shrink-0">
-                {logoUrl ? (
-                  <img
-                    src={logoUrl}
-                    alt="Organization Logo"
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                ) : (
-                  <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-500 font-bold">{orgName.charAt(0)}</span>
-                  </div>
-                )}
+                <img
+                  src={logo}
+                  alt="Company Logo"
+                  className="w-12 h-12 rounded-full"
+                />
               </div>
               <div className="flex-1">
                 <h1 className="text-2xl font-bold text-gray-800 mb-1">{title}</h1>
                 <p className="text-gray-600 text-sm">
-                  {orgName} • {location && location.length > 0 ? location.join(', ') : "Remote"}
+                  {org} • {location}
                 </p>
               </div>
             </div>
@@ -160,130 +129,106 @@ const DetailedJob = ({
                 <p className="text-gray-700 leading-relaxed">{description}</p>
               </div>
 
-              {responsibilitiesList.length > 0 && (
-                <div>
-                  <h2 className="text-lg font-semibold text-gray-800 mb-3">Responsibilities</h2>
-                  <ul className="space-y-2">
-                    {responsibilitiesList.map((resp, idx) => (
-                      <li key={idx} className="flex items-start space-x-2">
-                        <span className="text-green-500 mt-1">✓</span>
-                        <span className="text-gray-700">{resp}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              <div>
+                <h2 className="text-lg font-semibold text-gray-800 mb-3">Responsibilities</h2>
+                <ul className="space-y-2">
+                  {responsibilities.map((resp, idx) => (
+                    <li key={idx} className="flex items-start space-x-2">
+                      <span className="text-green-500 mt-1">✓</span>
+                      <span className="text-gray-700">{resp}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-              {requirementsList.length > 0 && (
-                <div>
-                  <h2 className="text-lg font-semibold text-gray-800 mb-3">Requirements</h2>
-                  <ul className="space-y-2">
-                    {requirementsList.map((req, idx) => (
-                      <li key={idx} className="flex items-start space-x-2">
-                        <span className="text-blue-500 mt-1">•</span>
-                        <span className="text-gray-700">{req}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {idealCandidateList.length > 0 && (
-                <div>
-                  <h2 className="text-lg font-semibold text-gray-800 mb-3">Ideal Candidate</h2>
-                  <ul className="space-y-3">
-                    {idealCandidateList.map((trait, idx) => (
-                      <li key={idx} className="flex items-start space-x-2">
-                        <span className="text-blue-500 mt-1">•</span>
-                        <span className="text-gray-700">{trait}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {whenAndWhere && (
-                <div>
-                  <h2 className="text-lg font-semibold text-gray-800 mb-3">When & Where</h2>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-blue-500">📍</span>
-                    <span className="text-gray-700">{whenAndWhere}</span>
+              <div>
+                <h2 className="text-lg font-semibold text-gray-800 mb-3">Ideal Candidate we want</h2>
+                {idealCandidate.age !== "Any" && (
+                  <div className="mb-2">
+                    <span className="font-medium text-gray-700">Age: </span>
+                    <span className="text-gray-700">{idealCandidate.age}</span>
                   </div>
+                )}
+                {idealCandidate.gender !== "Any" && (
+                  <div className="mb-2">
+                    <span className="font-medium text-gray-700">Gender: </span>
+                    <span className="text-gray-700">{idealCandidate.gender}</span>
+                  </div>
+                )}
+                <ul className="space-y-3">
+                  {idealCandidate.traits.map((trait, idx) => (
+                    <li key={idx} className="flex items-start space-x-2">
+                      <span className="text-blue-500 mt-1">•</span>
+                      <span className="text-gray-700">{trait}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div>
+                <h2 className="text-lg font-semibold text-gray-800 mb-3">When & Where</h2>
+                <div className="flex items-center space-x-2">
+                  <span className="text-blue-500">📍</span>
+                  <span className="text-gray-700">{whenWhere}</span>
                 </div>
-              )}
+              </div>
             </div>
           </div>
 
-          <div className="w-full md:w-80 space-y-6">
+          <div className="w-80 space-y-6">
             <div>
               <h3 className="text-lg font-semibold text-gray-800 mb-4">About</h3>
               <div className="space-y-3">
                 <div className="flex items-center space-x-2">
                   <span className="text-blue-500">🕐</span>
-                  <span className="text-gray-700">Posted On: {formatDate(datePosted)}</span>
+                  <span className="text-gray-700">Posted On: {postedOn}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span className="text-blue-500">👍</span>
-                  <span className="text-gray-700">Deadline: {formatDate(deadline)}</span>
+                  <span className="text-gray-700">Deadline: {deadline}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span className="text-blue-500">📍</span>
-                  <span className="text-gray-700">Location: {location && location.length > 0 ? location.join(', ') : "Remote"}</span>
+                  <span className="text-gray-700">Location: {location}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span className="text-blue-500">📅</span>
-                  <span className="text-gray-700">Start Date: {formatDate(startDate)}</span>
+                  <span className="text-gray-700">Start Date: {startDate}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span className="text-blue-500">📅</span>
-                  <span className="text-gray-700">End Date: {formatDate(endDate)}</span>
+                  <span className="text-gray-700">End Date: {endDate}</span>
                 </div>
-                {orgEmail && (
-                  <div className="flex items-center space-x-2">
-                    <span className="text-blue-500">📧</span>
-                    <span className="text-gray-700">Email: {orgEmail}</span>
-                  </div>
-                )}
-                {orgPrimaryPhone && (
-                  <div className="flex items-center space-x-2">
-                    <span className="text-blue-500">📞</span>
-                    <span className="text-gray-700">Phone: {orgPrimaryPhone}</span>
-                  </div>
-                )}
               </div>
             </div>
 
-            {categories && categories.length > 0 && (
-              <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">Categories</h3>
-                <div className="flex flex-wrap gap-2">
-                  {categories.map((category, idx) => (
-                    <span
-                      key={idx}
-                      className={`px-3 py-1 rounded-full text-xs font-medium ${idx === 0 ? "bg-orange-500 text-white" : "bg-blue-400 text-white"}`}
-                    >
-                      {category}
-                    </span>
-                  ))}
-                </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">Categories</h3>
+              <div className="flex flex-wrap gap-2">
+                {categories.map((category, idx) => (
+                  <span
+                    key={idx}
+                    className={`px-3 py-1 rounded-full text-xs font-medium ${category.color}`}
+                  >
+                    {category.label}
+                  </span>
+                ))}
               </div>
-            )}
+            </div>
 
-            {requiredSkills && requiredSkills.length > 0 && (
-              <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">Required Skills</h3>
-                <div className="flex flex-wrap gap-2">
-                  {requiredSkills.map((skill, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1 rounded-full text-xs font-medium text-blue-400"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">Required Skills</h3>
+              <div className="flex flex-wrap gap-2">
+                {requiredSkills.map((skill, idx) => (
+                  <span
+                    key={idx}
+                    className={`px-3 py-1 rounded-full text-xs font-medium ${skill.color}`}
+                  >
+                    {skill.label}
+                  </span>
+                ))}
               </div>
-            )}
+            </div>
           </div>
         </div>
       </div>

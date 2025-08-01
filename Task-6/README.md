@@ -6,8 +6,8 @@ A modern job listing application built with Next.js and TypeScript. This applica
 
 - **Job Listings**: Browse through various job opportunities with clean, card-based UI
 - **Sorting Options**: Sort jobs by relevance, newest first, or oldest first
-- **Detailed Job View**: Click on any job card to view comprehensive details about the position
 - **Responsive Design**: Optimized for both desktop and mobile viewing
+- **Detailed Job View**: Click on any job card to view comprehensive details about the position
 
 ## Screenshots
 
