@@ -13,14 +13,11 @@ A modern job listing application built with Next.js and TypeScript. This applica
 
 ### Home Page
 
-
-![Home Page](screenshots/image.png)
+![Home Page](./screenshots/image.png)
 
 ### Detailed Job View
 
-
-
-![Detailed Job View](screenshots/Screenshot%202025-07-31%20171145.png)
+![Detailed Job View](./screenshots/Screenshot%202025-07-31%20171145.png)
 
 ## Technologies Used
 

@@ -1,201 +1,178 @@
-[
-  {
-    "title": "Social Media Assistant",
-    "org": "Young Men Christians Association",
-    "location": "Addis Ababa, Ethiopia",
-    "description": "As a Social Media Assistant, you will work closely with the social media manager or marketing team to execute social media strategies and campaigns. You will be responsible for assisting in the creation and scheduling of engaging content, monitoring social media channels, and interacting with followers.",
-    "responsibilities": [
-      "Community engagement",
-      "Focus on social media content development and publication",
-      "Marketing and strategy support",
-      "Staying on top of trends and suggesting content ideas",
-      "Engaging with online communities"
-    ],
-    "idealCandidate": [
-      "Young (18-24 year old) Female social media manager",
-      "Passionate & Reliable: Having genuine interest, a strong desire to make a positive impact, being responsible, and committed to volunteer work",
-      "Adaptable, Team Player & Strong Communication Skills: Able to work effectively in diverse teams, contribute positively, be flexible, open to new challenges, and possess clear verbal/written communication, active listening, and constructive feedback",
-      "Respectful: Embracing diversity, being inclusive, treating others with respect, and abiding by rules and regulations"
-    ],
-    "whenWhere": "The onboarding event for this event will take place in Jan 18th, 2023 in AAU Auditorium.",
-    "postedOn": "Jul 1, 2023",
-    "deadline": "Jul 31, 2023",
-    "startDate": "Aug 10, 2023",
-    "endDate": "Sep 02, 2023",
-    "tags": [
-      { "label": "In Person", "color": "bg-green-100 text-green-800" },
-      { "label": "Education", "color": "text-[#FFB836]", "border": "border border-[#FFB836]" },
-      { "label": "IT", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
-    ],
-    "categories": [
-      { "label": "Marketing", "color": "bg-orange-500 text-white" },
-      { "label": "Design", "color": "bg-blue-400 text-white" }
-    ],
-    "requiredSkills": [
-      { "label": "Social Media Marketing", "color": "text-blue-400" },
-      { "label": "English", "color": "text-blue-400" },
-      { "label": "Copywriting", "color": "text-blue-400" }
-    ],
-    "logo": "/Task-6-logo.png"
-  },
-  {
-    "title": "Volunteer Teacher",
-    "org": "School Under The Tree",
-    "location": "Addis Ababa, Ethiopia",
-    "description": "Join our mission to provide quality education to underprivileged children. You will teach basic subjects and help create a positive learning environment.",
-    "responsibilities": [
-      "Teach basic subjects (Math, English, Science)",
-      "Create lesson plans and educational materials",
-      "Monitor student progress and provide feedback",
-      "Maintain classroom discipline and safety",
-      "Participate in school events and activities"
-    ],
-    "idealCandidate": [
-      "Education background or teaching experience preferred",
-      "Patient and compassionate with children",
-      "Strong communication and organizational skills",
-      "Commitment to educational excellence",
-      "Ability to work in outdoor/community settings"
-    ],
-    "whenWhere": "Classes will be held at our community center in Addis Ababa.",
-    "postedOn": "Jun 15, 2023",
-    "deadline": "Jul 30, 2023",
-    "startDate": "Aug 1, 2023",
-    "endDate": "Dec 15, 2023",
-    "tags": [
-      { "label": "In Person", "color": "bg-green-100 text-green-800" },
-      { "label": "Education", "color": "text-[#FFB836]", "border": "border border-[#FFB836]" },
-      { "label": "Teaching", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
-    ],
-    "categories": [
-      { "label": "Education", "color": "bg-green-500 text-white" },
-      { "label": "Community", "color": "bg-purple-500 text-white" }
-    ],
-    "requiredSkills": [
-      { "label": "Teaching", "color": "text-blue-400" },
-      { "label": "Amharic", "color": "text-blue-400" },
-      { "label": "English", "color": "text-blue-400" }
-    ],
-    "logo": "/Task-6-logo.png"
-  },
-  {
-    "title": "Social Media Assistant",
-    "org": "The Africa in me",
-    "location": "Addis Ababa, Ethiopia",
-    "description": "Help us tell the story of Africa through social media. You will create engaging content that showcases African culture, innovation, and opportunities.",
-    "responsibilities": [
-      "Create and curate engaging social media content",
-      "Develop content calendars and posting schedules",
-      "Engage with followers and respond to comments",
-      "Track social media metrics and performance",
-      "Collaborate with the creative team on campaigns"
-    ],
-    "idealCandidate": [
-      "Creative and passionate about African culture",
-      "Experience with social media platforms",
-      "Strong writing and visual communication skills",
-      "Knowledge of current social media trends",
-      "Ability to work independently and meet deadlines"
-    ],
-    "whenWhere": "Work will be primarily remote with occasional in-person meetings in Addis Ababa.",
-    "postedOn": "Jun 20, 2023",
-    "deadline": "Jul 25, 2023",
-    "startDate": "Aug 5, 2023",
-    "endDate": "Oct 30, 2023",
-    "tags": [
-      { "label": "Remote", "color": "bg-blue-100 text-blue-800" },
-      { "label": "Culture", "color": "text-[#FFB836]", "border": "border border-[#FFB836]" },
-      { "label": "Media", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
-    ],
-    "categories": [
-      { "label": "Marketing", "color": "bg-orange-500 text-white" },
-      { "label": "Culture", "color": "bg-yellow-500 text-white" }
-    ],
-    "requiredSkills": [
-      { "label": "Social Media", "color": "text-blue-400" },
-      { "label": "Content Creation", "color": "text-blue-400" },
-      { "label": "Photography", "color": "text-blue-400" }
-    ],
-    "logo": "/Task-6-logo.png"
-  },
-  {
-    "title": "Frontend Developer",
-    "org": "Tech Innovators Inc.",
-    "location": "Remote",
-    "description": "Join our team to build modern, responsive web applications. You will collaborate with designers and backend developers to deliver high-quality products.",
-    "responsibilities": [
-      "Develop responsive web applications using React/Next.js",
-      "Collaborate with UI/UX designers and backend developers",
-      "Write clean, maintainable, and well-documented code",
-      "Participate in code reviews and technical discussions",
-      "Optimize applications for performance and accessibility"
-    ],
-    "idealCandidate": [
-      "2+ years of experience with React, TypeScript, and modern web technologies",
-      "Strong understanding of HTML, CSS, and JavaScript",
-      "Experience with responsive design and cross-browser compatibility",
-      "Knowledge of version control systems (Git)",
-      "Excellent problem-solving and communication skills"
-    ],
-    "whenWhere": "This is a fully remote position with flexible working hours.",
-    "postedOn": "Jun 10, 2023",
-    "deadline": "Jul 20, 2023",
-    "startDate": "Aug 1, 2023",
-    "endDate": "Ongoing",
-    "tags": [
-      { "label": "Remote", "color": "bg-blue-100 text-blue-800" },
-      { "label": "Full Time", "color": "bg-yellow-100 text-yellow-800" },
-      { "label": "IT", "color": "text-[#4640DE]", "border": "border border-[#4640DE]" }
-    ],
-    "categories": [
-      { "label": "Technology", "color": "bg-blue-500 text-white" },
-      { "label": "Development", "color": "bg-indigo-500 text-white" }
-    ],
-    "requiredSkills": [
-      { "label": "React", "color": "text-blue-400" },
-      { "label": "TypeScript", "color": "text-blue-400" },
-      { "label": "CSS", "color": "text-blue-400" }
-    ],
-    "logo": "/Task-6-logo.png"
-  },
-  {
-    "title": "Data Analyst",
-    "org": "Insight Analytics",
-    "location": "Nairobi, Kenya",
-    "description": "Analyze large datasets to extract actionable insights for our clients. Experience with SQL and Python is required.",
-    "responsibilities": [
-      "Collect, clean, and analyze large datasets",
-      "Create data visualizations and reports",
-      "Develop predictive models and statistical analyses",
-      "Present findings to stakeholders and clients",
-      "Maintain data quality and integrity standards"
-    ],
-    "idealCandidate": [
-      "Bachelor's degree in Statistics, Mathematics, or related field",
-      "Proficiency in SQL, Python, and data visualization tools",
-      "Strong analytical and problem-solving skills",
-      "Experience with statistical analysis and modeling",
-      "Excellent communication and presentation skills"
-    ],
-    "whenWhere": "Office-based position in Nairobi with some remote work flexibility.",
-    "postedOn": "Jun 5, 2023",
-    "deadline": "Jul 15, 2023",
-    "startDate": "Jul 25, 2023",
-    "endDate": "Ongoing",
-    "tags": [
-      { "label": "In Person", "color": "bg-green-100 text-green-800" },
-      { "label": "Analytics", "color": "bg-purple-100 text-purple-800" },
-      { "label": "Finance", "color": "bg-pink-100 text-pink-800" }
-    ],
-    "categories": [
-      { "label": "Analytics", "color": "bg-purple-500 text-white" },
-      { "label": "Finance", "color": "bg-pink-500 text-white" }
-    ],
-    "requiredSkills": [
-      { "label": "SQL", "color": "text-blue-400" },
-      { "label": "Python", "color": "text-blue-400" },
-      { "label": "Statistics", "color": "text-blue-400" }
-    ],
-    "logo": "/Task-6-logo.png"
+{
+    "job_postings": [
+      {
+        "title": "Social media manager",
+        "description": "As a Social Media Assistant, you will work closely with the social media manager or marketing team to execute social media strategies and campaigns. You will be responsible for assisting in the creation and scheduling of engaging content, monitoring social media channels, and interacting with followers. Your primary goal will be to enhance brand visibility, foster positive relationships with the audience, and drive engagement and conversions.",
+        "responsibilities": [
+          "Community engagement to ensure that is supported and actively represented online",
+          "Focus on social media content development and publication",
+          "Marketing and strategy support",
+          "Stay on top of trends on social media platforms, and suggest content ideas to the team",
+          "Engage with online communities"
+        ],
+        "ideal_candidate": {
+          "age": "18-24",
+          "gender": "Female",
+          "traits": [
+            "Passionate & Reliable: Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments.",
+            "Adaptable, Team Player & Strong Communication Skills: Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback.",
+            "Respectful: Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."
+          ]
+        },
+        "when_where": "The onboarding event for this event will take place on Jan 18th, 2023 in AAU Auditorium.",
+        "about": {
+          "posted_on": "Jul 1, 2023",
+          "deadline": "Jul 31, 2023",
+          "location": "Addis Ababa",
+          "start_date": "Aug 02, 2023",
+          "end_date": "Sep 02, 2023",
+          "categories": ["Marketing", "Design"],
+          "required_skills": ["Social Media Marketing", "English", "Copywriting"]
+        },
+        "company": "ABC Media",
+        "image": "/job1.png"
+      },
+      {
+        "title": "Web developer",
+        "description": "As a Web Developer, you will be responsible for designing, coding, and modifying websites, from layout to function according to a client's specifications. You will create visually appealing sites that feature user-friendly design and clear navigation.",
+        "responsibilities": [
+          "Write well designed, testable, efficient code by using best software development practices",
+          "Create website layout/user interface by using standard HTML/CSS practices",
+          "Integrate data from various back-end services and databases",
+          "Gather and refine specifications and requirements based on technical needs",
+          "Create and maintain software documentation"
+        ],
+        "ideal_candidate": {
+          "age": "Any",
+          "gender": "Any",
+          "traits": [
+            "Strong organizational skills to juggle multiple tasks within the constraints of timelines and budgets",
+            "Ability to work and thrive in a fast-paced environment, learn rapidly, and master diverse web technologies and techniques",
+            "Team player with a positive attitude and good interpersonal skills"
+          ]
+        },
+        "when_where": "The onboarding event for this event will take place on Feb 10th, 2023 in BBIT Building, Room 202.",
+        "about": {
+          "posted_on": "Jan 15, 2023",
+          "deadline": "Feb 5, 2023",
+          "location": "Addis Ababa, Ethiopia",
+          "start_date": "Feb 15, 2023",
+          "end_date": "Aug 15, 2023",
+          "categories": ["IT", "Development"],
+          "required_skills": ["HTML", "CSS", "JavaScript", "PHP"]
+        },
+        "company": "Tech Innovators",
+        "image": "/job1.png"
+      },
+      {
+        "title": "Graphic designer",
+        "description": "As a Graphic Designer, you will create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. You will develop the overall layout and production design for various applications such as advertisements, brochures, magazines, and corporate reports.",
+        "responsibilities": [
+          "Develop graphics for product illustrations, logos, and websites",
+          "Select colors, images, text style, and layout",
+          "Present the design to clients or the art director",
+          "Incorporate changes recommended by the clients into the final design",
+          "Review designs for errors before printing or publishing them"
+        ],
+        "ideal_candidate": {
+          "age": "Any",
+          "gender": "Any",
+          "traits": [
+            "A keen eye for aesthetics and details",
+            "Excellent communication skills",
+            "Ability to work methodically and meet deadlines",
+            "Passionate about creating stunning visuals and innovative designs"
+          ]
+        },
+        "when_where": "The onboarding event for this event will take place on Mar 5th, 2023 in Design Studio, 3rd Floor.",
+        "about": {
+          "posted_on": "Feb 1, 2023",
+          "deadline": "Feb 28, 2023",
+          "location": "Cape Town, South Africa",
+          "start_date": "Mar 10, 2023",
+          "end_date": "Sep 10, 2023",
+          "categories": ["Design", "Art"],
+          "required_skills": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Creativity",
+            "Attention to detail"
+          ]
+        },
+        "company": "Creative Designs Co.",
+        "image": "/job1.png"
+      },
+      {
+        "title": "Data analyst",
+        "description": "As a Data Analyst, you will be responsible for analyzing data sets to identify trends, patterns, and insights that can help inform business decisions. You will work closely with different departments to gather and interpret data, create reports, and provide recommendations based on your findings.",
+        "responsibilities": [
+          "Interpret data, analyze results using statistical techniques and provide ongoing reports",
+          "Develop and implement databases, data collection systems, data analytics, and other strategies",
+          "Acquire data from primary or secondary data sources and maintain databases/data systems",
+          "Identify, analyze, and interpret trends or patterns in complex data sets",
+          "Filter and clean data by reviewing computer reports, printouts, and performance indicators"
+        ],
+        "ideal_candidate": {
+          "age": "Any",
+          "gender": "Any",
+          "traits": [
+            "Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information",
+            "Technical expertise regarding data models, database design development, data mining, and segmentation techniques",
+            "Excellent written and verbal communication skills",
+            "Ability to work independently and as part of a team"
+          ]
+        },
+        "when_where": "The onboarding event for this event will take place on Apr 12th, 2023 in Conference Room B.",
+        "about": {
+          "posted_on": "Mar 10, 2023",
+          "deadline": "Apr 1, 2023",
+          "location": "Lagos, Nigeria",
+          "start_date": "Apr 15, 2023",
+          "end_date": "Oct 15, 2023",
+          "categories": ["Data Science", "Analytics"],
+          "required_skills": ["SQL", "Python", "Excel", "Statistical Analysis"]
+        },
+        "company": "Data Insights Inc.",
+        "image": "/job1.png"
+      },
+      {
+        "title": "Customer support specialist",
+        "description": "As a Customer Support Specialist, you will provide product/services information and resolve any emerging problems that our customers might face with accuracy and efficiency. You will be patient, empathetic, and passionately communicative.",
+        "responsibilities": [
+          "Manage large amounts of incoming calls and emails",
+          "Identify and assess customers’ needs to achieve satisfaction",
+          "Build sustainable relationships and trust with customer accounts through open and interactive communication",
+          "Provide accurate, valid, and complete information by using the right methods/tools",
+          "Handle customer complaints, provide appropriate solutions and alternatives within the time limits; follow up to ensure resolution"
+        ],
+        "ideal_candidate": {
+          "age": "Any",
+          "gender": "Any",
+  
+          "traits": [
+            "Strong phone contact handling skills and active listening",
+            "Customer orientation and ability to adapt/respond to different types of characters",
+            "Excellent communication and presentation skills",
+            "Ability to multi-task, prioritize, and manage time effectively"
+          ]
+        },
+        "when_where": "The onboarding event for this event will take place on May 20th, 2023 in Customer Support Center, Ground Floor.",
+        "about": {
+          "posted_on": "Apr 15, 2023",
+          "deadline": "May 10, 2023",
+          "location": "Accra, Ghana",
+          "start_date": "May 25, 2023",
+          "end_date": "Nov 25, 2023",
+          "categories": ["Customer Service", "Support"],
+          "required_skills": [
+            "Communication Skills",
+            "Problem Solving",
+            "Patience",
+            "Attention to Detail"
+          ]
+        },
+        "company": "Customer Care Ltd.",
+        "image": "/job1.png"
+      }
+    ]
   }
-]
