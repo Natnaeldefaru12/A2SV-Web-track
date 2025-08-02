@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task 8: User Authentication Implementation
 
-## Getting Started
+This project implements a complete authentication system using NextAuth.js with the provided backend API endpoints. The application includes signup, signin, and email verification functionality.
 
-First, run the development server:
+## Features Implemented
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. User Registration (Signup)
+- **Form Validation**: Client-side validation for all required fields
+- **Password Confirmation**: Ensures passwords match
+- **Email Validation**: Validates email format
+- **Role Selection**: Users can select their role (user, admin, employer)
+- **API Integration**: Connects to the provided signup endpoint
+- **Error Handling**: Displays appropriate error messages
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Email Verification
+- **OTP Input**: 4-digit verification code input with auto-focus
+- **Resend Functionality**: Countdown timer for resending OTP
+- **API Integration**: Connects to the verify-email endpoint
+- **Success Redirect**: Redirects to signin page after successful verification
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. User Authentication (Signin)
+- **Form Validation**: Email format and required field validation
+- **NextAuth Integration**: Uses NextAuth.js for session management
+- **Access Token Storage**: Securely stores access tokens
+- **Error Handling**: Displays authentication errors
+- **Success Messages**: Shows verification success messages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Protected Routes
+- **Middleware Protection**: All routes except auth pages require authentication
+- **Automatic Redirects**: Unauthenticated users are redirected to signin
+- **Session Management**: Persistent sessions with JWT tokens
 
-## Learn More
+## API Endpoints Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Base URL**: `https://akil-backend.onrender.com/`
+- **Signup**: `POST /signup`
+- **Email Verification**: `POST /verify-email`
+- **Sign In**: `POST /login`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. Signup Page
+![Signup Page](screenshots/signup.png)
+**Description**: The signup page features a clean, modern design with Google signup option, form validation, and role selection. Users can enter their full name, email, password, confirm password, and select their role. The form includes client-side validation for all fields and displays appropriate error messages.
 
-## Deploy on Vercel
+### 2. Signin Page
+![Signin Page](screenshots/signin.png)
+**Description**: The signin page provides a streamlined authentication experience with email and password fields. It includes form validation, success messages for email verification, and links to the signup page. The design is consistent with the signup page for a cohesive user experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. Email Verification Page
+![Email Verification Page](screenshots/verify.png)
+**Description**: The email verification page displays a 4-digit OTP input interface with individual input boxes for each digit. It includes a countdown timer for resending the verification code and clear instructions for users. The page handles verification errors gracefully and redirects to signin upon success.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 4. Main Dashboard (Protected Route)
+![Main Dashboard](screenshots/dashboard.png)
+**Description**: The main dashboard shows the job listings with authentication-protected access. The navbar displays the user's name and sign-out option for authenticated users. Unauthenticated users are automatically redirected to the signin page.
+
+## Technical Implementation
+
+### Client-Side Validation
+- Email format validation using regex
+- Password length validation (minimum 6 characters)
+- Required field validation
+- Password confirmation matching
+
+### Security Features
+- Secure token storage using NextAuth.js
+- Protected routes with middleware
+- CSRF protection through NextAuth
+- Secure password handling
+
+### User Experience
+- Loading states during API calls
+- Clear error and success messages
+- Responsive design for all screen sizes
+- Intuitive navigation flow
